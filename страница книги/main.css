@@ -1,0 +1,150 @@
+@import '@a1rth/css-normalize'; /* нормализация стилей */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+header{
+     width: 100%;
+    height: 100px;
+    background-color:  rgba(163, 163, 163, 0.41);
+    display: flex;
+    
+    
+}
+
+#info{background-color: rgba(62, 67, 82, 0.58);
+    width: 552px;
+    height: 51px;
+    padding: 10px;
+    margin-left: 314px;
+    margin-top: 18px;
+    border-radius: 10px;
+    justify-content: center;
+}
+ul{display: flex;
+gap: 44px;
+justify-content: center;}
+
+li{
+    list-style: none;
+}
+
+a{text-decoration: none;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+font-size: 20px;
+ color: rgba(255, 255, 255, 1)}
+
+#logo a{margin-left: 69px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900px;
+  font-style: normal;
+  font-size: 30px
+}
+
+
+
+
+#logo{margin-top: 25px;
+margin-right: 130px;}
+
+.reg{margin-left: 114px;
+margin-top: 40px;
+justify-content: center;}
+
+.reg a{background-color: rgba(255, 255, 255, 1);
+color: rgba(0, 0, 0, 1);
+font-family: Arial, Helvetica, sans-serif;
+font-weight:500;
+font-size: 18px;
+border-radius: 15px;
+padding: 10px;
+}
+
+#header1{background-color: rgba(62, 67, 82, 0.96);
+text-align: center;
+width: 100%;
+height: 100px;}
+
+#header1 h1{padding-top: 25px;
+color: rgba(255, 255, 255, 1);
+
+font-family: Inter;
+font-style: Black Italic;
+font-size: 24px;
+font-weight: 900;
+line-height: 29px;
+letter-spacing: 0px;
+}
+
+
+    
+
+/* Размещение книг на странице*/
+.main-info {
+    display: grid;
+    grid-template-columns: repeat(3, 298px);
+    gap: 61px;
+    background-color: rgba(62, 67, 82, 1);
+    padding: 28px 141px 61px 121px;
+    margin-bottom: 61px;
+    place-items: center;
+    justify-content: center;
+    
+}
+
+.book {
+    width: 298px;
+    height: 439px;
+    position: relative;
+    text-align: center;
+    
+}
+/* размер фото */
+.book img {
+    width: 298px;
+    height: 353px;
+    border-radius: 10px 10px 0 0;
+    
+}
+/* Надпись под фото книги */
+#book-content {
+    position: absolute;
+    width: 100%;       
+    background-color: rgba(96, 96, 96, 0.88);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/* Стили для текста внутри блока */
+#book-content h2 {
+
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#book-content p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+footer{background-color: rgba(62, 67, 82, 0.96);
+height: 120px;
+width: 100%;
+display: flex;
+gap: 89px;
+font-size: 20px;
+color: rgba(255, 255, 255, 1);
+margin-top: -40px
+}
+
+#footer-info{
+    text-align: center;
+    justify-content: center;
+}
+
+ html{background-color:rgba(82, 82, 82, 0.4) ;} 
